@@ -11,7 +11,6 @@ Installare l'eseguibile Tesserac.
 - Su MacOS <br>
 `brew install tesseract `
 
-<br>
 
 - Su Windows10<br>
 https://github.com/UB-Mannheim/tesseract/wiki
