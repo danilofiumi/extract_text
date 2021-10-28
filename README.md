@@ -15,7 +15,6 @@ Installare l'eseguibile Tesserac.
 - Su Windows10<br>
 https://github.com/UB-Mannheim/tesseract/wiki
 
-<br>
 
 ## Setup Python
 
@@ -49,3 +48,6 @@ Le immagini supportate dal motore OCR sono tutte quelle in formato png/jpeg/jpg.
 
 - impostare un threshold ben calibrato (tendenzialmente infatti gli OCR lavorano meglio con immagini bianco e nero) <br>
 `ret,thresh1 = cv2.threshold(img,127,255,cv2.THRESH_BINARY)`
+
+## Reference
+https://github.com/tesseract-ocr/tesseract
