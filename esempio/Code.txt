@@ -1,0 +1,36 @@
+import cv2
+
+import numpy as np
+
+from PIL import Image
+
+im = Image.open(path)
+
+# Setting the
+
+points for cropped image
+
+# Cropped image of above dimension
+
+im_resized =
+
+im.resize((1980, 1000), Image.ANTIALIAS)
+
+# (It will not change orginal image)
+
+im_resized.save(path. format (1) )
+
+img = cv2.imread(path, 0)
+
+ret,threshi =
+ret,thresh2 =
+ret,thresh3 =
+ret,thresh4 =
+ret,thresh5 =
+
+cv2.threshold(img,127,255,cv2. THRESH_BINARY)
+cv2.threshold(img,127,255,cv2.THRESH_BINARY_INV)
+cv2.threshold(img,127,255,cv2.THRESH_TRUNC)
+cv2.threshold(img,127,255,cv2.THRESH_TOZERO)
+cv2.threshold(img,127,255,cv2.THRESH_TOZERO_INV)
+
