@@ -6,7 +6,7 @@ Questa repo contiene il codice per estrarre qualsiasi tipo di testo da una quals
 <br>
  
 ## installazione di Tesseract
-Per prima cosa è necessario installare l'eseguibile Tesserac 
+Installare l'eseguibile Tesserac.
 
 - Su MacOS <br>
 `brew install tesseract `
@@ -20,13 +20,13 @@ https://github.com/UB-Mannheim/tesseract/wiki
 
 ## Setup Python
 
-Su Python, installare il pacchetto pytesseract
+Su Python, installare il pacchetto pytesseract.
 
 `pip install pytesseract`
 
 
 
-aprire lo script *OCR_tesseract.py* e
+Aprire lo script *OCR_tesseract.py* e
 sostituire i seguenti elementi:
 
 1. **####path_to_image####** con il percorso dell' immagine della quale si vuole estrarre il testo. 
