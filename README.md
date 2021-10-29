@@ -5,7 +5,7 @@
 Questa repo contiene il codice per estrarre qualsiasi tipo di testo da una qualsiasi immagine tramite Tesserract, l'OCR Open Source di Google.
 <br>
  
-## installazione di Tesseract
+## Installazione di Tesseract
 Installare l'eseguibile Tesserac.
 
 - Su MacOS <br>
@@ -16,7 +16,7 @@ Installare l'eseguibile Tesserac.
 https://github.com/UB-Mannheim/tesseract/wiki
 
 
-## Setup Python
+## Setup ed esecuzione su Python
 
 Su Python, installare il pacchetto pytesseract.
 
@@ -40,7 +40,7 @@ Eseguire il codice.
 Nella cartella esempio ci sono 3 immagini con i rispettivi file testuali convertiti con lo script esempio_OCR.py.
 Le immagini supportate dal motore OCR sono tutte quelle in formato png/jpeg/jpg.
 
-## Idee di Miglioramento
+## Idee di miglioramento
 è possibile migliorare la conversione utilizzando dei metodi di pre-processing delle immagini, tramite i pacchetti `PIL` e `cv2`. Ad esempio:
 
 - ridimensionare l'immagine in modo da aumentare la leggibilità <br>
